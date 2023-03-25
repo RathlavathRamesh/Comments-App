@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.CommentsApp {
+  background-color: #ffffff;
+  height: 100vh;
+  box-shadow: inset;
+  margin: 20px;
+  padding: 20px;
+  margin-top: 10vh;
+  margin-left: 15vh;
+}
+.commentcount {
+  display: flex;
+}
+.cmt {
+  font-size: 20px;
+  margin-left: 3px;
+}
+.but {
+  background-color: #0284c7;
+  height: 3vh;
+  width: 2vw;
+  border-width: 0px;
+  border-radius: 2px;
+  margin-top: 18px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CommentCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bgImage {
+  height: 50vh;
+}
+.thCard {
+  display: flex;
+  flex-direction: column;
+}
+.cmtheading {
+  color: #1e293b;
+}
+.para {
+  color: #475569;
+}
+.incard {
+  height: 6vh;
+  width: 25vw;
+  box-shadow: azure 20px 20px 20px 20px;
+  border-width: 1px;
+  border-color: aliceblue;
+  border-radius: 5px;
+}
+.araElement {
+  margin-top: 5vh;
+  border-radius: 5px;
+  box-shadow: inset;
+}
+.addbutn {
+  background-color: #0284c7;
+  border-width: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin-top: 2vh;
+  width: 10vw;
+}
